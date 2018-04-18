@@ -3,8 +3,7 @@ use std::io::prelude::*;
 use std::process::{Command, Stdio};
 use std::env;
 
-static PANGRAM: &'static str =
-"the quick brown fox jumped over the lazy dog\n";
+static PANGRAM: &'static str = "the quick brown fox jumped over the lazy dog\n";
 
 fn main() {
     let args: Vec<String> = env::args().collect();
